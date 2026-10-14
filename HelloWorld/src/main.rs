@@ -1,3 +1,4 @@
 fn main() {
-    println!("Hello, world!");
+    println!("Hello, To myself!");
+    println!("I wanna eat a pizza or sushi because im hungry");
 }
