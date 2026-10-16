@@ -1,4 +1,13 @@
-fn main() {
-    println!("Hello, To myself!");
-    println!("I wanna eat a pizza or sushi because im hungry im really hungry and angry");
-}
+fn main() {}
+
+/*
+Primitive data Types:
+int float bool char!
+
+
+in rust for the integer wer have signed and unsigned and they are
+i8 i16 i32 i64 i128 signed integers
+u8 u16 u32 u64 u128 unsigned integers
+
+its literaly similiar to c++
+ */
