@@ -14,16 +14,22 @@ fn main()
 {
     let mut x: u16 = 5;
     println!("x is {}" , x);
-    x = 5;
+    x = 4;
     println!("x is {}" , x);
 
     let is_alive: bool = true;
+    let grade: char = 'A';
+    let temperature: f64 = 7474.34242;
 
-    println!("technoblade is alive = {}" , is_alive);
-    //:( im so sad i liked his videos i watch them now i also watch the cherno for C++ and for rust i am following this great dude Codynn
-    // 38.9K subscribers lets see in the future how  many subs he will have!!;
-    //btw the output is 1 i know
-    //what i tested it and it printed true!!! rust is different then C++ i like it for now i wanna keep using i  like some things that i think are wrong in C++ but Cpp its still the best for other things and i like it its my favourite!
-    
+    //tuple
 
+    let pokemon: (&str, u8) = ("Picachu", 100);
+
+    println!("{} has {} health remaining out of 100", pokemon.0, pokemon.1);
+
+    //arrays
+
+    let mut buffer: [u8; 5] = [1,2,3,4,5];
+    buffer[0] = 5;
+    println!("{:?}", buffer);
 }
