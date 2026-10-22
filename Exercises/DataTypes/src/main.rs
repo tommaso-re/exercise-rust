@@ -32,4 +32,6 @@ fn main()
     let mut buffer: [u8; 5] = [1,2,3,4,5];
     buffer[0] = 5;
     println!("{:?}", buffer);
+
+    println!("today i studied the compiler")
 }
