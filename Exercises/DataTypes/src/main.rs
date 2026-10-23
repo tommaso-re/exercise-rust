@@ -35,6 +35,6 @@ fn main()
 
 
     println!("today i studied the compiler");
-    println!("dawnloaded asesprite and compiled it and learn how to make pixel art for a game i wanna make in rust")
-    
+    println!("dawnloaded asesprite and compiled it and learn how to make pixel art for a game i wanna make in rust");
+    println!(" whatever i wanna see other things like classes treadhs but i think we will se them later i cant find a good youtuber....... maybe i could be one?");
 }

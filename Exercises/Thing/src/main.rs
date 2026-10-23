@@ -2,11 +2,11 @@
 
 fn main()
 {
-    greet("Tommaso")
-    println!();
+    greet("Tommaso");
+    println!("{}", add(10,12));
 }
 
-fn greet(name: &str)
+fn greet(name: &str) -> ()
 {
     println!("Hey {}", name);
 }
