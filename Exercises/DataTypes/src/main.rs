@@ -33,6 +33,8 @@ fn main()
     buffer[0] = 5;
     println!("{:?}", buffer);
 
+
     println!("today i studied the compiler");
     println!("dawnloaded asesprite and compiled it and learn how to make pixel art for a game i wanna make in rust")
+    
 }
